@@ -1,5 +1,5 @@
-experiment_server:
-  image: experiment:server
+experiments_server:
+  image: experiments:server
   stdin_open: true
   tty: true
   privileged: true
