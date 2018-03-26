@@ -1,0 +1,7 @@
+parloma_server:
+  image: parloma:server
+  stdin_open: true
+  tty: true
+  privileged: true
+  ports:
+    - 1194:1194
