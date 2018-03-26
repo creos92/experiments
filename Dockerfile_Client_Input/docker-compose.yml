@@ -3,3 +3,5 @@ experiments_client_in:
   stdin_open: true
   tty: true
   privileged: true
+  volumes:
+    - ~/speedtest:/data  
