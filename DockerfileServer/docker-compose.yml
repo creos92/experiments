@@ -1,5 +1,5 @@
-parloma_server:
-  image: parloma:server
+experiment_server:
+  image: experiment:server
   stdin_open: true
   tty: true
   privileged: true
