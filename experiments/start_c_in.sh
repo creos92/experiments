@@ -7,6 +7,6 @@ sleep 3s
 export ROS_IP=$(/sbin/ifconfig | grep "inet addr:10.8" |awk -F: '{print $2}' | awk '{print $1}')
 export ROS_MASTER_URI=http://10.8.0.1:11311
 ntpdate ntp.ubuntu.com && 
-cd /experiments && source ./devel/setup.bash && pythonpub.py && cp data.dat ../data && cat data.dat
+cd /experiments && source ./devel/setup.bash && python pub.py 
 
 
